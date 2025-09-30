@@ -1,0 +1,185 @@
+* {
+    overflow-x: hidden;
+  }
+
+  img:nth-of-type(1) {
+    height: 100vh;
+  }
+
+  #img1 {
+    height: 468px;
+    width: 450px;
+    position: absolute;
+    right: 0;
+    top: 170px;
+    opacity: 0;
+    transition: right 2s ease, opacity 2s ease;
+  }
+
+  #di {
+    background-color: white;
+    height: 468px;
+    width: 450px;
+    position: absolute;
+    right: 0;
+    top: 170px;
+    opacity: 0;
+    transition: right 2s ease, opacity 2s ease;
+  }
+
+  p:nth-of-type(1) {
+    font-family: 'new1';
+    
+    font-size: 35px;
+  }
+
+  p:nth-of-type(2) {
+    position: relative;
+    bottom: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
+
+  header {
+    font-family: 'new1';
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  .fs-4{
+    text-align: center;
+    font-family: 'new1';
+   }
+
+  @font-face {
+    font-family: 'new1';
+    src: url('/portfolio/static/font/eye_quirky/Eye Quirky Demo.ttf');
+  }
+
+  h1:hover {
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: silver;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .border{
+    background-color: #F1F1F1;
+    height: 400px;
+  }
+  .social {
+    height: 0px;
+    background-color: #182153;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Important for smooth collapse */
+    transition: height 2s ease; /* Add transition here instead of JS */
+  }
+  
+ i{
+  color: white;
+  
+ }
+ a{
+    font-size: 20px;
+ }
+.bg-primary{
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 50% !important;
+ 
+}
+
+
+
+.w-25 {
+  height: 75px;
+  width: 250px !important;
+  margin-left: 400px !important;
+}
+
+
+
+.dot {
+  position: relative;
+  right: 75px;
+  background-color: #182153;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: 80px;
+  transition: top 10s ease; /* Smooth transition */
+}
+
+.mc {
+  height: 500px !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px 100px;
+  padding: 20px;
+}
+
+.company {
+  position: relative;
+  width: 300px !important;
+  
+}
+
+.font-bold{
+  background-color: white;
+  font-family: 'new1';
+ 
+}
+#skills{
+  height: 400px;
+  background-color: #F8F9FA;
+  display: grid;
+  grid-template-columns: 400px 400px 300px;
+}
+.box{
+  margin-left: 100px;
+  height: 80px;
+  width: 0px;
+  background-color: #47527B;
+  transition: width 2s ease;
+}
+
+
+#Expertise{
+  height: 220px;
+  width: 520px;
+  display: inline-block;
+}
+span{
+  display: inline-block;
+  text-align: center;
+}
+#e{
+  height: 350px;
+}
+.contact{
+  background-color: #F1F1F1;
+}
+.info{
+  height: 500px !important;
+  background-color: #F1F1F1;
+}
+#c{
+  display: flex;
+}
+.so2{
+  height: 40px;
+}
